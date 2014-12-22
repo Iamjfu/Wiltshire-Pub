@@ -1,28 +1,12 @@
-== README
+== This is a practice website
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Taken from http://briefbox.me/design-brief/wiltshire-pub/ which provides ideas for practicing websites.
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+== Wiltshire pub website
+
+The Royal Oak pub based in Wiltshire, England is looking to freshen up their website to match their new rustic refurbishement which has recently been completed. Their current site is basic, lacks creative flair and needs to be seriously re-worked. They are looking for a rustic, hand crafted and bespoke design that is fully responsive and catches viewers attention with awesome simple artwork and layouts.
+
+When things are more completeled this README will include a link to my portfolio with all my websites.
+
+Feel free to contact me at justindanielfuller@gmail.com
