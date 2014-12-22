@@ -16,6 +16,7 @@ gem 'bootstrap-sass', '~> 3.3.1'
 gem 'autoprefixer-rails'
 gem "gritter", "1.1.0"
 gem 'simple_form', '~> 3.1.0'
+gem 'country_select'
 
 group :development do
   #default gems
