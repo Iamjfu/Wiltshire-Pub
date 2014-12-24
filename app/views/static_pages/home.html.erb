@@ -1,8 +1,9 @@
 <div class="card">
-  <%# Title picture with logo words over top %>
+  <!-- Title picture with logo words over top -->
   <div class="titleCard">
     <h1 class="titleCard-logo">Welcome To Wiltshire Pub</h1>
   </div>
+  <!-- Bottom portion of the logo where text is displayed -->
   <div class="title-bottom">
     <p>The finest pub England has to offer</p>
   </div>
@@ -10,11 +11,26 @@
     <a href="#">Click here to find out more   <i class="fa fa-chevron-right"></i></a>
   </div>
 </div>
-
+<!-- Individual card with text on the right -->
 <div class="smallCard">
   <%= image_tag('londonpub1.JPG') %>
   <div class="card-right">
     <p>Located in the heart of England, Wiltshire is well worth the trip.</p>
     <a href="#">Click here for directions   <i class="fa fa-chevron-right"></i></a>
   </div>
+</div>
+<!-- Individual card with no picture -->
+<div id="card2" class="smallCard">
+  <div class="card-right">
+    <p>Wiltshire Pub is home to the world renound chef, Marty McFly.</p>
+    <a href="#">You can meet him here  <i class="fa fa-chevron-right"></i></a>
+  </div>
+</div>
+<!-- Individual card with text on the left -->
+<div id="card3" class="smallCard">
+  <div class="card-left">
+    <p>Wiltshire pub is always open, but private rooms require reservations.</p>
+    <a href="#">Book a room today   <i class="fa fa-chevron-right"></i></a>
+  </div>
+  <%= image_tag('londonpub2.jpg') %>
 </div>
