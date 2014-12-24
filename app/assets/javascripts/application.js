@@ -9,13 +9,25 @@
 //
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
-//
-//= require jquery
-//= require bootstrap-sprockets
+
 //= require gritter
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
 
-
+//Used for collapsing and showing the nav bar
+$(document).ready(function() {
+  $('.navbar-toggle').click(function() {
+    $('#navbar-collapse-1').toggleClass('collapse');
+  });
+  $('.navbar-toggle').mouseleave(function() {
+    $(this).blur();
+  });
+  $(window).resize(function() {
+    var windowWidth = $(window).width();
+    if (windowWidth >= 768) {
+      $('#navbar-collapse-1').addClass('collapse');
+    }
+  });
+});

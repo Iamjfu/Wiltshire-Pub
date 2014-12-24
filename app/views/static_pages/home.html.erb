@@ -1,51 +1,20 @@
+<div class="card">
+  <%# Title picture with logo words over top %>
+  <div class="titleCard">
+    <h1 class="titleCard-logo">Welcome To Wiltshire Pub</h1>
+  </div>
+  <div class="title-bottom">
+    <p>The finest pub England has to offer</p>
+  </div>
+  <div class="title-bottom">
+    <a href="#">Click here to find out more</a>
+  </div>
+</div>
 
-<!-- Cards -->
-<div class="row top-row">
-        <!-- Card Projects -->
-        <div class="col-md-6">
-            <div class="card">
-                <div class="card-image">
-                    <!--<img class="img-responsive" src="http://material-design.storage.googleapis.com/publish/v_2/material_ext_publish/0Bx4BSt6jniD7TDlCYzRROE84YWM/materialdesign_introduction.png"> -->
-                    <%= image_tag("rusticfood.jpg", class: 'img-responsive') %>
-                    <span class="card-title">Material Cards</span>
-                </div>
-                
-                <div class="card-content">
-                    <p>Cards for display in portfolio style material design by Google.</p>
-                </div>
-                
-                <div class="card-action">
-                    <a href="#" target="new_blank">Link</a>
-                    <a href="#" target="new_blank">Link</a>
-                    <a href="#" target="new_blank">Link</a>
-                    <a href="#" target="new_blank">Link</a>
-                    <a href="#" target="new_blank">Link</a>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Carousel -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <%= image_tag("londonpub1.JPG") %>
-        </div>
-        <div class="item">
-          <%= image_tag("londonpub2.jpg") %>
-        </div>
-        <div class="item">
-          <%= image_tag("londonpub3.jpg") %>
-        </div>
-      </div>
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-    <!-- /.carousel -->
-    </div>
-    
+<div class="smallCard">
+  <%= image_tag('londonpub1.JPG') %>
+  <div class="card-right">
+    <p>Located in the heart of England, Wiltshire is well worth the trip.</p>
+    <a href="#">Click here for directions</a>
+  </div>
+</div>
