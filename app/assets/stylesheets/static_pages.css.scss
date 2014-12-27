@@ -5,29 +5,30 @@
 
 * {
   font-family: 'Open Sans Condensed', sans-serif;
+  list-style-type: none;
 }
-
 body,
 html,
 .container {
   margin:0;
   padding:0;
   width:100%;
+  background-color:#181818;
 }
-
 a {
   text-decoration:none;
   color:#eee;
 }
-
+.navbar {
+  background-color:#eee;
+  height:60px;
+}
 @media screen and (max-width:767px){
   .body {
     background-color:#181818;
   }
   .navbar {
     width:100%;
-    background-color:#eee;
-    height:60px;
     position:fixed;
     top:0px;
     display:inline-block;
@@ -58,7 +59,6 @@ a {
     }
     .navbar-nav {
       background-color:#eee;
-      list-style-type: none;
       position:relative;
       top:43px;
       padding:0px;
@@ -224,10 +224,10 @@ a {
         font-size:1.8em;
         color:#eee;
         border:none;
-        top:-130px;
+        top:-132px;
         left:0%;
-        width:70%;
-        padding:25px 0px 50px 30%;
+        width:90%;
+        padding:40px 0% 38px 10%;
         &:hover,
         &:focus {
           background-color:rgba(158,56,56,0.73);
@@ -243,11 +243,214 @@ a {
       }
     }
 }
+@media screen and (max-width:500px){
+  .smallCard {
+    font-size:0.7em;
+  }
+  #card3 img {
+        top:-123px;
+      }
+  #card4 a {
+    top:-122px;
+  }    
+}
+@media screen and (max-width:950px) and (min-width:768px){
+  .smallCard {
+    font-size:0.6em;
+  }
+}
+@media screen and (max-width:1014px) and (min-width:768px){
+  .smallCard {
+    font-size:0.6em;
+  }
+  .navbar-nav {
+    display:block;
+    width:600px;
+    margin:auto; 
+    font-size:0.75em;
+  }
+}
+@media screen and (min-width:1015px){
+  .smallCard {
+    font-size:0.8em;
+  }
+  .navbar-nav {
+    display:block;
+    width:800px;
+    margin:auto; 
+  }
+}
 @media screen and (min-width:768px){
-    .body {
-      background-image: url(image_path('darkcobblestone.jpeg'));
-      background-attachment: fixed;
+  .container {
+    padding:15px 10% 0px 10%;
+    width:80%;
+  }
+  .navbar {
+      margin:auto;
+      width:100%;
+      float:left;
+      background-color:rgba(109,33,33,0.4);
+      border-radius:3px;
+    }
+    .show-mobile {
+      display:none;
+    }
+    .navbar-nav {
+      position:relative;
+      z-index:1000;
+    }
+    .navbar-nav li {
+      margin-right:8%;
+      display:inline-block;
+    }
+    .navbar-nav li a {
+      text-decoration:none;
+      color:#eee;
+      position:relative;
+      top:25px;
+      &:hover,
+      &:focus {
+        color:#d8d8d8;
+      }
+      &:active {
+        color:#b8b8b8;
+      }
+    }
+    .card {
+      width:60%;
+      position:relative;
+      top:40px;
+      float:left;
+      margin-right:1%;
+    }
+    .titleCard {
+      width:100%;
+      height:400px;
+      background-image: url(image_path('rusticfood.jpg'));
       background-size:cover;
+      border-radius:5px;
+    }
+    .titleCard h1 {
+      color:#eee;
+      text-align:right;
+      width:75%;
+      position:relative;
+      top:80px;
+      font-weight:100;
+      background-color:rgba(158,56,56,0.8);
+      padding:10px 20px 10px 0px;
+      font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    .title-bottom {
+      display:none;
+    }
+    .smallCard {
+      width:39%;
+      height:120px;
+      position:relative;
+      top:60px;
+      background-color:rgba(218,218,218,1);
+      float:left;
+      img {
+        width:30%;
+        height:120px;
+        display:inline-block;
+      }
+      p,
+      a {
+        width:67%;
+        height:42px;
+        display:inline-block;
+        position:relative;
+        top:-122px;
+        left:30%;
+        padding:8px 0px 0px 3%;
+      }
+      a {
+        top:-140px;
+        border-top:1px solid #c9c9c9;
+        color:black;
+        padding-top:20px;
+        &:hover,
+        &:focus {
+          background-color:rgba(208,208,208,1);
+          outline:none;
+        }
+        i {
+          position:relative;
+          left:2.5%;
+          top:1px;
+        }
+      }
+    }
+    #card2 {
+      position:relative;
+      top:80px;
+      background-color:inherit;
+      float:left;
+      div {
+        position:relative;
+        top:106px;
+        p,
+        a {
+          width:97%;
+          left:0%;
+          color:#eee;
+          background-color:rgba(158,56,56,1);
+          padding-top:20px;
+        }
+        a {
+          border-top:1px solid #851d1d;
+          &:hover,
+          &:focus {
+            background-color:#851d1d;
+          }
+        }
+      }
+    }
+    #card3 {
+      position:relative;
+      top:100px;
+      img {
+        position:relative;
+        top:-138px;
+        float:right;
+      }
+      div {
+        position:relative;
+        top:125px;
+        right:30%;
+      }
+    }
+    #card4 {
+      background-image: url(image_path('londonpub3.jpg'));
+      background-size:100% 240px;
       background-repeat:no-repeat;
+      display:block;
+      top:75px;
+      margin-bottom:25px;
+      width:100%;
+      clear:both;
+      a {
+        font-size:1.8em;
+        color:#eee;
+        border:none;
+        top:0px;
+        left:0%;
+        width:90%;
+        padding:40px 0% 38px 10%;
+        &:hover,
+        &:focus {
+          background-color:rgba(158,56,56,0.73);
+        }
+      }
+      div {
+        background-color:rgba(158,56,56,0.7);
+        display:block;
+        width:100%;
+        height:120px;
+        top:0px;
+        left:0px;
+      }
     }
 }
