@@ -18,16 +18,38 @@
 
 //Used for collapsing and showing the nav bar
 $(document).ready(function() {
+  menuToggle();
+  windowResize();
+  menuLinks();
+});
+
+var menuToggle = function() {
   $('.navbar-toggle').click(function() {
     $('#navbar-collapse-1').toggleClass('collapse');
   });
   $('.navbar-toggle').mouseleave(function() {
     $(this).blur();
   });
-  $(window).resize(function() {
+}
+
+var windowResize = function () {
+    $(window).resize(function() {
     var windowWidth = $(window).width();
     if (windowWidth >= 768) {
       $('#navbar-collapse-1').addClass('collapse');
     }
   });
-});
+}
+
+var menuLinks = function() {
+  $('#starters').click(function() {
+    $('html, body').animate({
+        scrollTop: $("#starterMenu").offset().top
+    }, 2000);
+  });
+  $('#sandwiches').click(function() {
+    $('html, body').animate({
+        scrollTop: $("#sandwichMenu").offset().top
+    }, 2000);
+  });
+}
