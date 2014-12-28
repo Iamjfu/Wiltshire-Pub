@@ -254,11 +254,13 @@ a {
     top:-122px;
   }    
 }
+//changes text sizes for cards on small size pages
 @media screen and (max-width:950px) and (min-width:768px){
   .smallCard {
     font-size:0.6em;
   }
 }
+//text size and nav bar width for medium pages
 @media screen and (max-width:1014px) and (min-width:768px){
   .smallCard {
     font-size:0.6em;
@@ -270,6 +272,7 @@ a {
     font-size:0.75em;
   }
 }
+//text size and navbar width on large pages
 @media screen and (min-width:1015px){
   .smallCard {
     font-size:0.8em;
@@ -280,7 +283,9 @@ a {
     margin:auto; 
   }
 }
+//all media on medium to large sizes
 @media screen and (min-width:768px){
+  //general container keeps things fitting nicely
   .container {
     padding:15px 10% 0px 10%;
     width:80%;
