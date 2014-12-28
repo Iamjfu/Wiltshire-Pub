@@ -17,6 +17,7 @@ gem 'autoprefixer-rails'
 gem "gritter", "1.1.0"
 gem 'simple_form', '~> 3.1.0'
 gem 'country_select'
+gem 'jquery-turbolinks'
 
 group :development do
   #default gems
