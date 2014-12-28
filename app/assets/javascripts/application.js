@@ -67,4 +67,9 @@ var menuLinks = function() {
         scrollTop: $("#burgerMenu").offset().top
     }, 1000);
   });
+  $('#dinners').click(function() {
+    $('html, body').animate({
+        scrollTop: $("#dinnersMenu").offset().top
+    }, 1000);
+  });
 }
