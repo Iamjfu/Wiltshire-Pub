@@ -72,4 +72,14 @@ var menuLinks = function() {
         scrollTop: $("#dinnersMenu").offset().top
     }, 1000);
   });
+  $('#salads').click(function() {
+    $('html, body').animate({
+        scrollTop: $("#saladsMenu").offset().top
+    }, 1000);
+  });
+  $('#desserts').click(function() {
+    $('html, body').animate({
+        scrollTop: $("#dessertsMenu").offset().top
+    }, 1000);
+  });
 }

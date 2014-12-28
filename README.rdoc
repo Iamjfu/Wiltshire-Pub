@@ -2,6 +2,7 @@
 
 Taken from http://briefbox.me/design-brief/wiltshire-pub/ which provides ideas for practicing websites.
 
+A special thanks to http://www.thebritishbulldogpub.com/ for the menu that is used on this website!
 
 == Wiltshire pub website
 
