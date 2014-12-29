@@ -22,12 +22,16 @@ $(document).ready(function() {
   menuToggle();
   windowResize();
   menuLinks();
+  googleMaps();
+  initializeMaps();
 });
 
 $(document).on('page:load', function() {
   menuToggle();
   windowResize();
   menuLinks();
+  googleMaps();
+  initializeMaps();
 });
 
 //toggles the mobile menu
@@ -83,3 +87,16 @@ var menuLinks = function() {
     }, 1000);
   });
 }
+
+var googleMaps = function initialize() {
+        var mapCanvas = document.getElementById('map-canvas');
+        var mapOptions = {
+          center: new google.maps.LatLng(51.27546779, -1.99120224),
+          zoom: 20,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+      }
+var initializeMaps = function() {
+  google.maps.event.addDomListener(window, 'load', initialize);
+}      
