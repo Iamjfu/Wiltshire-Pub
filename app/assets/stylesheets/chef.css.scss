@@ -1,5 +1,20 @@
+#chefMenu {
+  height:350px;
+  h2,
+  p {
+    position:relative;
+    top:-100px;
+  }
+  p {
+    top:-50px;
+  }
+}
+
 .chefPic {
   border-radius:50%;
   height:250px;
   width:280px;
+  float:right;
+  position:relative;
+  top:-150px;
 }

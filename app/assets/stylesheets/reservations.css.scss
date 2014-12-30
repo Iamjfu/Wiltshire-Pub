@@ -10,6 +10,12 @@
    top:-150px;
   }
 }
+.reservationConfirm {
+  position:relative;
+  top:-250px;
+  left:29%;
+  display:none;
+}
 //style for the form on the reservation page
 .reservationForm {
   position:relative;
@@ -19,7 +25,7 @@
   select,
   input,
   textarea,
-  button {
+  .submitReservation {
     background-color:white;
     border-radius:-5px;
     outline:none;
@@ -39,7 +45,9 @@
     left:285px;
     margin-bottom:-50px;
   }
-  button {
+  .submitReservation {
+    text-align:center;
+    padding-top:15spx;
     background-color:#aad1d6;
     margin-left:18%;
     border-radius:5px;

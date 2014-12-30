@@ -19,6 +19,7 @@
 
 //calling both document ready and page load because of turbolinks
 $(document).ready(function() {
+  submitClick();
   menuToggle();
   windowResize();
   menuLinks();
@@ -27,12 +28,21 @@ $(document).ready(function() {
 });
 
 $(document).on('page:load', function() {
+  submitClick();
   menuToggle();
   windowResize();
   menuLinks();
   googleMaps();
   initializeMaps();
 });
+
+//hides the reservation submit menu so they know it submitted
+var submitClick = function() {
+  $('.submitReservation').click(function() {
+    $('.reservationForm').fadeOut();
+    $('.reservationConfirm').fadeIn();
+  });
+}
 
 //toggles the mobile menu
 var menuToggle = function() {
