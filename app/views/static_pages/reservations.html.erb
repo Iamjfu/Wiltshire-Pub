@@ -9,29 +9,35 @@
   <h4>Wiltshire Pub is always open, but if you would like to book a private event you can do so on this page.</h4>
   <!-- Form for submitting your reservation info -->
   <form class="reservationForm">
-    <p>Enter your full name.</p>
+    <div class="reservationName">
+      <p>Enter your full name.</p>
     <input type="text" name="fname" placeholder="Enter Your Full Name">
+    </div>
     <div class="email">
       <p>Enter your email address.</p>
       <input type="email" name="email" placeholder="Enter Your Email Address">
     </div>
-    <p>What type of event is this for?</p>
-    <select name="eventType">
-      <option value="party">Party</option>
-      <option value="meeting">Meeting</option>
-      <option value="wedding">Wedding</option>
-      <option value="other">Other</option>
-    </select>
+    <div class="selection">
+      <p>What type of event is this for?</p>
+      <select name="eventType">
+        <option value="party">Party</option>
+        <option value="meeting">Meeting</option>
+        <option value="wedding">Wedding</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
     <div class="date">
       <p>When Is your event?</p>
       <input type ="date">
     </div>
-    <p>Select your party size.</p>
-    <select name="partySize">
-      <option value="4-8">4-8</option>
-      <option value="9-14">9-14</option>
-      <option value="15+">15+</option>
-    </select>
+    <div class="selection">
+      <p>Select your party size.</p>
+      <select name="partySize">
+        <option value="4-8">4-8</option>
+        <option value="9-14">9-14</option>
+        <option value="15+">15+</option>
+      </select>
+    </div>
     <div class="details">
       <p>Enter extra details here:</p>
       <textarea placeholder="Extra details" rows="4" cols="50"></textarea>

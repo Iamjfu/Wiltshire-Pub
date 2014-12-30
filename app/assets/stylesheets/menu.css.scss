@@ -93,3 +93,20 @@
     }
   }
 }
+
+@media screen and (max-width:767px){
+  .menu {
+    h3:first-child {
+      color:#eee;
+    }
+    dd {
+      font-size:0.7em;
+    }
+  }
+  #menuCard {
+    height:150px;
+    div {
+      height:150px;
+    }
+  }
+}

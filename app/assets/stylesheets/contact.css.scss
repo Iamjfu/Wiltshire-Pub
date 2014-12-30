@@ -1,30 +1,33 @@
 .contactForm {
   display:block;
   margin:auto;
-  width:50%;
+  width:400px;
   padding:10%;
+  height:400px;
   .formContainer {
     position:relative;
     top:-100px;
+    height:500px;
   }
-  .name {
-    float:left;
+  .contactName {
+    padding:10px;
     input {
       height:50px;
       width:150px;
       padding-left:10px;
     }
   }
-  .email {
-    float:right;
+  .contactEmail {
+    padding:10px;
     input {
       height:50px;
       width:150px;
       padding-left:10px;
     }
   }
-  .details {
-    width:70%;
+  .contactDetails {
+    padding:15px;
+    width:320px;
     clear:both;
     margin:auto;
     position:relative;
@@ -61,5 +64,34 @@
   top:120px;
   h2 {
     display:none;
+  }
+}
+
+@media screen and (min-width:768px){
+  .contactName {
+    float:left;
+  }
+  .contactEmail {
+    float:right;
+  }
+}
+
+@media screen and (max-width:767px){
+  #contactMenu {
+    position:relative;
+    top:30px;
+    height:600px;
+  }
+  .contactForm {
+    position:relative;
+    top:50px;
+  }
+  .contactName {
+    margin:auto;
+    float:none;
+  }
+  .contactEmail {
+    float:none;
+    margin:auto;
   }
 }

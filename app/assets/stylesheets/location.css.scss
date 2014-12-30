@@ -10,3 +10,23 @@
   top:-450px;
   left:600px;
 }
+
+@media screen and (max-width:767px){
+  #locationMenu {
+    position:relative;
+    top:20px;
+    height:800px;
+    #map-canvas {
+      position:relative;
+      top:350px;
+      margin:auto;
+    }
+    .locationInfo {
+      display:block;
+      width:300px;
+      margin:auto;
+      top:-400px;
+      left:0px;
+    }
+  }
+}
