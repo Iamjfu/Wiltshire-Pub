@@ -19,28 +19,31 @@
 
 //calling both document ready and page load because of turbolinks
 $(document).ready(function() {
-  submitClick();
-  menuToggle();
-  windowResize();
-  menuLinks();
-  googleMaps();
-  initializeMaps();
+  initializers();
 });
 
 $(document).on('page:load', function() {
+  initializers();
+});
+
+var initializers = function() {
   submitClick();
   menuToggle();
   windowResize();
   menuLinks();
   googleMaps();
   initializeMaps();
-});
+}
 
 //hides the reservation submit menu so they know it submitted
 var submitClick = function() {
   $('.submitReservation').click(function() {
     $('.reservationForm').fadeOut();
     $('.reservationConfirm').fadeIn();
+  });
+  $('.submitContact').click(function() {
+    $('.formContainer').fadeOut();
+    $('.contactConfirm h2').fadeIn();
   });
 }
 
