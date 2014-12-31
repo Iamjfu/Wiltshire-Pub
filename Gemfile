@@ -32,7 +32,7 @@ group :production do
   #added gems for heroku deployment
   gem 'heroku', '~> 3.21.1'
   gem 'pg'
-  gem 'rails_12factor', '~> 0.0.3'
+  gem 'rails_12factor'
   gem 'thin'
 end
 
