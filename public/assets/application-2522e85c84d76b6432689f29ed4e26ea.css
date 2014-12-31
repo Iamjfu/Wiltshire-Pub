@@ -1,0 +1,1148 @@
+/* line 1, /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/gritter-1.1.0/vendor/assets/stylesheets/gritter.css.scss */
+#gritter-notice-wrapper {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 301px;
+  z-index: 9999;
+}
+/* line 8, /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/gritter-1.1.0/vendor/assets/stylesheets/gritter.css.scss */
+#gritter-notice-wrapper.top-left {
+  left: 20px;
+  right: auto;
+}
+/* line 13, /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/gritter-1.1.0/vendor/assets/stylesheets/gritter.css.scss */
+#gritter-notice-wrapper.bottom-right {
+  top: auto;
+  left: auto;
+  bottom: 20px;
+  right: 20px;
+}
+/* line 20, /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/gritter-1.1.0/vendor/assets/stylesheets/gritter.css.scss */
+#gritter-notice-wrapper.bottom-left {
+  top: auto;
+  right: auto;
+  bottom: 20px;
+  left: 20px;
+}
+
+/* line 28, /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/gritter-1.1.0/vendor/assets/stylesheets/gritter.css.scss */
+.gritter-item-wrapper {
+  position: relative;
+  margin: 0 0 10px 0;
+  background: url("/assets/ie-spacer.gif");
+}
+
+/* line 34, /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/gritter-1.1.0/vendor/assets/stylesheets/gritter.css.scss */
+.gritter-top {
+  background: url("/assets/gritter.png") no-repeat left -30px;
+  height: 10px;
+}
+
+/* line 38, /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/gritter-1.1.0/vendor/assets/stylesheets/gritter.css.scss */
+.hover .gritter-top {
+  background-position: right -30px;
+}
+
+/* line 41, /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/gritter-1.1.0/vendor/assets/stylesheets/gritter.css.scss */
+.gritter-bottom {
+  background: url("/assets/gritter.png") no-repeat left bottom;
+  height: 8px;
+  margin: 0;
+}
+
+/* line 46, /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/gritter-1.1.0/vendor/assets/stylesheets/gritter.css.scss */
+.hover .gritter-bottom {
+  background-position: bottom right;
+}
+
+/* line 50, /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/gritter-1.1.0/vendor/assets/stylesheets/gritter.css.scss */
+.gritter-item {
+  display: block;
+  color: #eee;
+  padding: 2px 11px 8px 11px;
+  font-size: 11px;
+  font-family: verdana;
+  -webkit-filter: inherit;
+          filter: inherit;
+}
+/* line 58, /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/gritter-1.1.0/vendor/assets/stylesheets/gritter.css.scss */
+.gritter-item.gritter-css2 {
+  background: url("/assets/gritter.png") no-repeat left -40px;
+}
+/* line 61, /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/gritter-1.1.0/vendor/assets/stylesheets/gritter.css.scss */
+.gritter-item.gritter-css3 {
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  padding-top: 12px;
+  padding-bottom: 16px;
+}
+/* line 70, /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/gritter-1.1.0/vendor/assets/stylesheets/gritter.css.scss */
+.gritter-item p {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 75, /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/gritter-1.1.0/vendor/assets/stylesheets/gritter.css.scss */
+.hover .gritter-item.gritter-css2 {
+  background-position: right -40px;
+}
+
+/* line 78, /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/gritter-1.1.0/vendor/assets/stylesheets/gritter.css.scss */
+.hover .gritter-item.gritter-css3 {
+  padding: 10px 9px 14px 9px;
+  border: solid 2px #fff;
+}
+
+/* line 83, /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/gritter-1.1.0/vendor/assets/stylesheets/gritter.css.scss */
+.gritter-close {
+  display: none;
+  position: absolute;
+  top: 5px;
+  left: 3px;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  -webkit-filter: inherit;
+          filter: inherit;
+}
+
+/* line 93, /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/gritter-1.1.0/vendor/assets/stylesheets/gritter.css.scss */
+.gritter-css2 .gritter-close {
+  background: url("/assets/gritter.png") no-repeat left top;
+}
+
+/* line 96, /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/gritter-1.1.0/vendor/assets/stylesheets/gritter.css.scss */
+.gritter-css3 .gritter-close {
+  background: url("/assets/gritter-close.png") no-repeat;
+}
+
+/* line 100, /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/gritter-1.1.0/vendor/assets/stylesheets/gritter.css.scss */
+.gritter-title {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 0 7px 0;
+  display: block;
+  text-shadow: 1px 1px #000;
+  /* Not supported by IE :( */
+}
+
+/* line 107, /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/gritter-1.1.0/vendor/assets/stylesheets/gritter.css.scss */
+.gritter-image {
+  width: 48px;
+  height: 48px;
+  float: left;
+}
+
+/* line 113, /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/gritter-1.1.0/vendor/assets/stylesheets/gritter.css.scss */
+.gritter-with-image,
+.gritter-without-image {
+  padding: 0 0 5px 0;
+}
+
+/* line 116, /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/gritter-1.1.0/vendor/assets/stylesheets/gritter.css.scss */
+.gritter-with-image {
+  width: 220px;
+  float: right;
+}
+/* line 1, /home/ubuntu/workspace/pub/app/assets/stylesheets/chef.css.scss */
+#chefMenu {
+  height: 350px;
+}
+/* line 4, /home/ubuntu/workspace/pub/app/assets/stylesheets/chef.css.scss */
+#chefMenu h2,
+#chefMenu p {
+  position: relative;
+  top: -100px;
+}
+/* line 8, /home/ubuntu/workspace/pub/app/assets/stylesheets/chef.css.scss */
+#chefMenu p {
+  top: -50px;
+}
+
+/* line 13, /home/ubuntu/workspace/pub/app/assets/stylesheets/chef.css.scss */
+.chefPic {
+  border-radius: 50%;
+  height: 250px;
+  width: 280px;
+  float: right;
+  position: relative;
+  top: -150px;
+}
+
+@media screen and (max-width: 984px) {
+  /* line 24, /home/ubuntu/workspace/pub/app/assets/stylesheets/chef.css.scss */
+  #chefMenu h2 {
+    position: relative;
+    top: -150px;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 33, /home/ubuntu/workspace/pub/app/assets/stylesheets/chef.css.scss */
+  #chefMenu h2 {
+    color: #eee;
+    position: relative;
+    top: -150px;
+  }
+  /* line 38, /home/ubuntu/workspace/pub/app/assets/stylesheets/chef.css.scss */
+  #chefMenu p {
+    position: Relative;
+    top: 0px;
+  }
+}
+@media screen and (max-width: 472px) {
+  /* line 46, /home/ubuntu/workspace/pub/app/assets/stylesheets/chef.css.scss */
+  #chefMenu {
+    height: 500px;
+  }
+}
+/* line 1, /home/ubuntu/workspace/pub/app/assets/stylesheets/contact.css.scss */
+.contactForm {
+  display: block;
+  margin: auto;
+  width: 400px;
+  padding: 10%;
+  height: 400px;
+}
+/* line 7, /home/ubuntu/workspace/pub/app/assets/stylesheets/contact.css.scss */
+.contactForm .formContainer {
+  position: relative;
+  top: -100px;
+  height: 500px;
+}
+/* line 12, /home/ubuntu/workspace/pub/app/assets/stylesheets/contact.css.scss */
+.contactForm .contactName {
+  padding: 10px;
+}
+/* line 14, /home/ubuntu/workspace/pub/app/assets/stylesheets/contact.css.scss */
+.contactForm .contactName input {
+  height: 50px;
+  width: 150px;
+  padding-left: 10px;
+}
+/* line 20, /home/ubuntu/workspace/pub/app/assets/stylesheets/contact.css.scss */
+.contactForm .contactEmail {
+  padding: 10px;
+}
+/* line 22, /home/ubuntu/workspace/pub/app/assets/stylesheets/contact.css.scss */
+.contactForm .contactEmail input {
+  height: 50px;
+  width: 150px;
+  padding-left: 10px;
+}
+/* line 28, /home/ubuntu/workspace/pub/app/assets/stylesheets/contact.css.scss */
+.contactForm .contactDetails {
+  padding: 15px;
+  width: 320px;
+  clear: both;
+  margin: auto;
+  position: relative;
+  top: 50px;
+}
+/* line 36, /home/ubuntu/workspace/pub/app/assets/stylesheets/contact.css.scss */
+.contactForm .submitContact {
+  background-color: blue;
+  width: 100px;
+  position: relative;
+  top: 100px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #aad1d6;
+  color: white;
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.29);
+}
+/* line 50, /home/ubuntu/workspace/pub/app/assets/stylesheets/contact.css.scss */
+.contactForm .submitContact:hover, .contactForm .submitContact:focus {
+  background-color: #92d0d8;
+}
+/* line 53, /home/ubuntu/workspace/pub/app/assets/stylesheets/contact.css.scss */
+.contactForm .submitContact:active {
+  background-color: #79bfc9;
+}
+
+/* line 59, /home/ubuntu/workspace/pub/app/assets/stylesheets/contact.css.scss */
+.contactConfirm {
+  width: 45%;
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 120px;
+}
+/* line 65, /home/ubuntu/workspace/pub/app/assets/stylesheets/contact.css.scss */
+.contactConfirm h2 {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 71, /home/ubuntu/workspace/pub/app/assets/stylesheets/contact.css.scss */
+  .contactName {
+    float: left;
+  }
+
+  /* line 74, /home/ubuntu/workspace/pub/app/assets/stylesheets/contact.css.scss */
+  .contactEmail {
+    float: right;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 80, /home/ubuntu/workspace/pub/app/assets/stylesheets/contact.css.scss */
+  #contactMenu {
+    position: relative;
+    top: 30px;
+    height: 600px;
+  }
+
+  /* line 85, /home/ubuntu/workspace/pub/app/assets/stylesheets/contact.css.scss */
+  .contactForm {
+    position: relative;
+    top: 50px;
+  }
+
+  /* line 89, /home/ubuntu/workspace/pub/app/assets/stylesheets/contact.css.scss */
+  .contactName {
+    margin: auto;
+    float: none;
+  }
+
+  /* line 93, /home/ubuntu/workspace/pub/app/assets/stylesheets/contact.css.scss */
+  .contactEmail {
+    float: none;
+    margin: auto;
+  }
+}
+/* line 1, /home/ubuntu/workspace/pub/app/assets/stylesheets/location.css.scss */
+#map-canvas {
+  width: 500px;
+  height: 400px;
+  position: relative;
+  top: -80px;
+  border: 1px solid black;
+}
+
+/* line 8, /home/ubuntu/workspace/pub/app/assets/stylesheets/location.css.scss */
+.locationInfo {
+  position: relative;
+  top: -450px;
+  left: 600px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 15, /home/ubuntu/workspace/pub/app/assets/stylesheets/location.css.scss */
+  #locationMenu {
+    position: relative;
+    top: 20px;
+    height: 800px;
+  }
+  /* line 19, /home/ubuntu/workspace/pub/app/assets/stylesheets/location.css.scss */
+  #locationMenu #map-canvas {
+    position: relative;
+    top: 350px;
+    margin: auto;
+  }
+  /* line 24, /home/ubuntu/workspace/pub/app/assets/stylesheets/location.css.scss */
+  #locationMenu .locationInfo {
+    display: block;
+    width: 300px;
+    margin: auto;
+    top: -400px;
+    left: 0px;
+  }
+}
+/* line 1, /home/ubuntu/workspace/pub/app/assets/stylesheets/menu.css.scss */
+#menuCard {
+  background-image: url("/assets/londonpub3.jpg");
+  background-size: 100% 240px;
+  background-repeat: no-repeat;
+  display: block;
+  top: 35px;
+  margin-bottom: 25px;
+  width: 100%;
+  clear: both;
+}
+/* line 10, /home/ubuntu/workspace/pub/app/assets/stylesheets/menu.css.scss */
+#menuCard a {
+  font-size: 2.5em;
+  color: #eee;
+  border: none;
+  top: 0px;
+  left: 0%;
+  width: 100%;
+  padding: 40px 0% 38px 00%;
+  text-align: center;
+}
+/* line 20, /home/ubuntu/workspace/pub/app/assets/stylesheets/menu.css.scss */
+#menuCard a:hover, #menuCard a:focus {
+  background-color: rgba(158, 56, 56, 0);
+  cursor: default;
+}
+/* line 25, /home/ubuntu/workspace/pub/app/assets/stylesheets/menu.css.scss */
+#menuCard div {
+  background-color: rgba(118, 16, 16, 0.7);
+  display: block;
+  width: 100%;
+  height: 120px;
+  top: -50px;
+  left: 0px;
+}
+
+/* line 34, /home/ubuntu/workspace/pub/app/assets/stylesheets/menu.css.scss */
+.menu {
+  background-color: #eee;
+  position: relative;
+  top: 250px;
+  padding: 0% 10%;
+}
+/* line 39, /home/ubuntu/workspace/pub/app/assets/stylesheets/menu.css.scss */
+.menu h3 {
+  display: inline-block;
+  position: relative;
+  top: -150px;
+  font-size: 2.5em;
+}
+/* line 45, /home/ubuntu/workspace/pub/app/assets/stylesheets/menu.css.scss */
+.menu dl {
+  position: relative;
+  top: -160px;
+}
+/* line 49, /home/ubuntu/workspace/pub/app/assets/stylesheets/menu.css.scss */
+.menu dt {
+  font-weight: 700;
+  font-style: italic;
+  color: white;
+  background-color: #7e2929;
+  height: 80px;
+  width: 70px;
+  padding: 20px 10% 20px 1%;
+  position: relative;
+  top: -20px;
+  margin-bottom: -100px;
+}
+/* line 61, /home/ubuntu/workspace/pub/app/assets/stylesheets/menu.css.scss */
+.menu dd {
+  position: relative;
+  top: -40px;
+  left: 70px;
+  background-color: white;
+  width: 80%;
+  padding: 40px 5% 0px 5%;
+  height: 80px;
+}
+
+/* line 71, /home/ubuntu/workspace/pub/app/assets/stylesheets/menu.css.scss */
+.sidemenu {
+  position: fixed;
+  top: 200px;
+  left: 0px;
+  background-color: #4b3c3c;
+  color: white;
+  width: 120px;
+  height: 200px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+}
+/* line 81, /home/ubuntu/workspace/pub/app/assets/stylesheets/menu.css.scss */
+.sidemenu ul {
+  position: relative;
+  left: -30px;
+}
+/* line 84, /home/ubuntu/workspace/pub/app/assets/stylesheets/menu.css.scss */
+.sidemenu ul li {
+  margin-bottom: 10px;
+}
+/* line 87, /home/ubuntu/workspace/pub/app/assets/stylesheets/menu.css.scss */
+.sidemenu ul li a:hover,
+.sidemenu ul li a:focus {
+  color: #d8d8d8;
+}
+/* line 90, /home/ubuntu/workspace/pub/app/assets/stylesheets/menu.css.scss */
+.sidemenu ul li a:active {
+  color: grey;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 99, /home/ubuntu/workspace/pub/app/assets/stylesheets/menu.css.scss */
+  .menu h3:first-child {
+    color: #eee;
+  }
+  /* line 102, /home/ubuntu/workspace/pub/app/assets/stylesheets/menu.css.scss */
+  .menu dd {
+    font-size: 0.7em;
+  }
+
+  /* line 106, /home/ubuntu/workspace/pub/app/assets/stylesheets/menu.css.scss */
+  #menuCard {
+    height: 150px;
+  }
+  /* line 108, /home/ubuntu/workspace/pub/app/assets/stylesheets/menu.css.scss */
+  #menuCard div {
+    height: 150px;
+  }
+}
+/* line 2, /home/ubuntu/workspace/pub/app/assets/stylesheets/reservations.css.scss */
+#reservationMenu {
+  position: relative;
+  top: 65px;
+  overflow-x: hidden;
+  height: 500px;
+}
+/* line 7, /home/ubuntu/workspace/pub/app/assets/stylesheets/reservations.css.scss */
+#reservationMenu h4 {
+  text-align: center;
+  position: relative;
+  top: -150px;
+}
+
+/* line 13, /home/ubuntu/workspace/pub/app/assets/stylesheets/reservations.css.scss */
+.reservationConfirm {
+  position: relative;
+  top: -250px;
+  left: 29%;
+  display: none;
+}
+
+/* line 20, /home/ubuntu/workspace/pub/app/assets/stylesheets/reservations.css.scss */
+.reservationForm {
+  position: relative;
+  top: -30px;
+  width: 490px;
+  height: 580px;
+  margin: auto;
+}
+/* line 29, /home/ubuntu/workspace/pub/app/assets/stylesheets/reservations.css.scss */
+.reservationForm select,
+.reservationForm input,
+.reservationForm textarea,
+.reservationForm .submitReservation {
+  background-color: white;
+  border-radius: -5px;
+  outline: none;
+  border: 1px solid #eee;
+  height: 40px;
+  width: 200px;
+  margin-right: 75px;
+}
+/* line 38, /home/ubuntu/workspace/pub/app/assets/stylesheets/reservations.css.scss */
+.reservationForm input {
+  text-align: center;
+}
+/* line 41, /home/ubuntu/workspace/pub/app/assets/stylesheets/reservations.css.scss */
+.reservationForm .submitReservation {
+  text-align: center;
+  padding-top: 15spx;
+  background-color: #aad1d6;
+  margin: auto;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.2em;
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.29);
+}
+/* line 53, /home/ubuntu/workspace/pub/app/assets/stylesheets/reservations.css.scss */
+.reservationForm .submitReservation:hover, .reservationForm .submitReservation:focus {
+  background-color: #92d0d8;
+}
+/* line 56, /home/ubuntu/workspace/pub/app/assets/stylesheets/reservations.css.scss */
+.reservationForm .submitReservation:active {
+  background-color: #79bfc9;
+}
+
+@media screen and (max-width: 550px) {
+  /* line 67, /home/ubuntu/workspace/pub/app/assets/stylesheets/reservations.css.scss */
+  .date,
+  .email,
+  .details,
+  .reservationName,
+  .selection {
+    width: 200px;
+    display: block;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 551px) {
+  /* line 77, /home/ubuntu/workspace/pub/app/assets/stylesheets/reservations.css.scss */
+  .date,
+  .email,
+  .details {
+    position: relative;
+    top: -93px;
+    left: 285px;
+    margin-bottom: -50px;
+  }
+}
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300|Open+Sans+Condensed:300);
+/* line 6, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+* {
+  font-family: 'Open Sans Condensed', sans-serif;
+  list-style-type: none;
+}
+
+/* line 12, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+body,
+html,
+.container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #181818;
+}
+
+/* line 18, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+a {
+  text-decoration: none;
+  color: #eee;
+}
+
+/* line 22, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+.navbar {
+  background-color: #eee;
+  height: 60px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 27, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .body {
+    background-color: #181818;
+  }
+
+  /* line 30, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .navbar {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    display: inline-block;
+    z-index: 1000;
+  }
+
+  /* line 37, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .navbar-toggle {
+    border-radius: 5px;
+    width: 50px;
+    background-color: transparent;
+    position: relative;
+    bottom: 8px;
+    right: 0;
+    right: 2.5%;
+    float: right;
+    border: 1px solid #e1e1e1;
+    outline: none;
+  }
+
+  /* line 50, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .navbar-toggle:focus,
+  .navbar-toggle:hover {
+    background-color: #e1e1e1;
+    outline: none;
+  }
+
+  /* line 54, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .navbar-toggle:active {
+    background-color: #d4d4d4;
+  }
+
+  /* line 57, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .collapse {
+    visibility: hidden;
+  }
+
+  /* line 60, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .navbar-nav {
+    background-color: #eee;
+    position: relative;
+    top: 43px;
+    padding: 0px;
+    z-index: 1000;
+  }
+
+  /* line 67, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .navbar-nav li {
+    position: relative;
+    border-top: 1px solid #e1e1e1;
+  }
+
+  /* line 72, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .navbar-nav li:hover,
+  .navbar-nav li:focus {
+    background-color: #e1e1e1;
+  }
+
+  /* line 75, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .navbar-nav li:active {
+    background-color: #d4d4d4;
+  }
+
+  /* line 78, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .navbar-nav li a {
+    text-decoration: none;
+    color: #181818;
+    display: block;
+    padding: 20px 0% 10px 7%;
+  }
+
+  /* line 84, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .card {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 80px;
+    margin-bottom: 10px;
+  }
+
+  /* line 91, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .titleCard {
+    width: 100%;
+    height: 300px;
+    background-image: url("/assets/rusticfood.jpg");
+    background-size: cover;
+  }
+
+  /* line 97, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .titleCard h1 {
+    color: #eee;
+    text-align: right;
+    width: 75%;
+    position: relative;
+    top: 80px;
+    font-weight: 100;
+    background-color: rgba(158, 56, 56, 0.8);
+    padding: 10px 20px 10px 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+  }
+
+  /* line 110, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .title-bottom {
+    display: block;
+    height: 50px;
+    background-color: #dadada;
+    border-top: 1px solid #c9c9c9;
+    position: relative;
+    top: -3px;
+    color: #181818;
+    padding: 0px 0px 0px 50px;
+  }
+  /* line 119, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .title-bottom a {
+    background-color: #dadada;
+    position: relative;
+    height: 35px;
+    right: 50px;
+    color: black;
+    display: block;
+    width: 100%;
+    padding-left: 50px;
+    padding-top: 15px;
+  }
+  /* line 130, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .title-bottom a:hover, .title-bottom a:focus {
+    background-color: #d0d0d0;
+    outline: none;
+  }
+  /* line 134, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .title-bottom a i {
+    position: relative;
+    left: 2.5%;
+    top: 1px;
+  }
+
+  /* line 141, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .smallCard {
+    display: block;
+    width: 80%;
+    height: 120px;
+    margin: auto;
+    position: relative;
+    top: 75px;
+    background-color: #dadada;
+  }
+  /* line 149, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .smallCard img {
+    width: 30%;
+    height: 120px;
+    display: inline-block;
+  }
+  /* line 155, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .smallCard p,
+  .smallCard a {
+    width: 67%;
+    height: 42px;
+    display: inline-block;
+    position: relative;
+    top: -122px;
+    left: 30%;
+    padding: 8px 0px 0px 3%;
+  }
+  /* line 164, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .smallCard a {
+    top: -140px;
+    border-top: 1px solid #c9c9c9;
+    color: black;
+  }
+  /* line 169, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .smallCard a:hover, .smallCard a:focus {
+    background-color: #d0d0d0;
+    outline: none;
+  }
+  /* line 173, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .smallCard a i {
+    position: relative;
+    left: 2.5%;
+    top: 1px;
+  }
+
+  /* line 180, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  #card2 {
+    position: relative;
+    top: 85px;
+    background-color: inherit;
+  }
+  /* line 184, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  #card2 div {
+    position: relative;
+    top: 106px;
+  }
+  /* line 188, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  #card2 div p,
+  #card2 div a {
+    width: 97%;
+    left: 0%;
+    color: #eee;
+    background-color: #9e3838;
+  }
+  /* line 194, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  #card2 div a {
+    border-top: 1px solid #851d1d;
+  }
+  /* line 197, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  #card2 div a:hover, #card2 div a:focus {
+    background-color: #851d1d;
+  }
+
+  /* line 203, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  #card3 {
+    position: relative;
+    top: 75px;
+  }
+  /* line 206, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  #card3 img {
+    position: relative;
+    top: -133px;
+    float: right;
+  }
+  /* line 211, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  #card3 div {
+    position: relative;
+    top: 125px;
+    right: 30%;
+  }
+
+  /* line 217, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  #card4 {
+    background-image: url("/assets/londonpub3.jpg");
+    background-size: 100% 240px;
+    background-repeat: no-repeat;
+    top: 85px;
+    margin-bottom: 25px;
+  }
+  /* line 223, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  #card4 a {
+    font-size: 1.8em;
+    color: #eee;
+    border: none;
+    top: -132px;
+    left: 0%;
+    width: 90%;
+    padding: 40px 0% 38px 10%;
+  }
+  /* line 232, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  #card4 a:hover, #card4 a:focus {
+    background-color: rgba(158, 56, 56, 0.73);
+  }
+  /* line 236, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  #card4 div {
+    background-color: rgba(158, 56, 56, 0.7);
+    display: block;
+    width: 100%;
+    height: 120px;
+    top: 0px;
+    left: 0px;
+  }
+}
+@media screen and (max-width: 500px) {
+  /* line 247, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .smallCard {
+    font-size: 0.7em;
+  }
+
+  /* line 250, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  #card3 img {
+    top: -123px;
+  }
+
+  /* line 253, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  #card4 a {
+    top: -122px;
+  }
+}
+@media screen and (max-width: 950px) and (min-width: 768px) {
+  /* line 259, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .smallCard {
+    font-size: 0.6em;
+  }
+}
+@media screen and (max-width: 1014px) and (min-width: 768px) {
+  /* line 265, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .smallCard {
+    font-size: 0.6em;
+  }
+
+  /* line 268, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .navbar-nav {
+    display: block;
+    width: 600px;
+    margin: auto;
+    font-size: 0.75em;
+  }
+}
+@media screen and (min-width: 1015px) {
+  /* line 277, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .smallCard {
+    font-size: 0.8em;
+  }
+
+  /* line 280, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .navbar-nav {
+    display: block;
+    width: 800px;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 289, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .container {
+    padding: 15px 10% 0px 10%;
+    width: 80%;
+  }
+
+  /* line 293, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .navbar {
+    margin: auto;
+    width: 100%;
+    float: left;
+    background-color: rgba(109, 33, 33, 0.4);
+    border-radius: 3px;
+  }
+
+  /* line 300, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .show-mobile {
+    display: none;
+  }
+
+  /* line 303, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .navbar-nav {
+    position: relative;
+    z-index: 1000;
+  }
+
+  /* line 307, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .navbar-nav li {
+    margin-right: 8%;
+    display: inline-block;
+  }
+
+  /* line 311, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .navbar-nav li a {
+    text-decoration: none;
+    color: #eee;
+    position: relative;
+    top: 25px;
+  }
+  /* line 317, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .navbar-nav li a:hover, .navbar-nav li a:focus {
+    color: #d8d8d8;
+  }
+  /* line 320, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .navbar-nav li a:active {
+    color: #b8b8b8;
+  }
+
+  /* line 324, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .card {
+    width: 60%;
+    position: relative;
+    top: 40px;
+    float: left;
+    margin-right: 1%;
+  }
+
+  /* line 331, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .titleCard {
+    width: 100%;
+    height: 400px;
+    background-image: url("/assets/rusticfood.jpg");
+    background-size: cover;
+    border-radius: 5px;
+  }
+
+  /* line 338, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .titleCard h1 {
+    color: #eee;
+    text-align: right;
+    width: 75%;
+    position: relative;
+    top: 80px;
+    font-weight: 100;
+    background-color: rgba(158, 56, 56, 0.8);
+    padding: 10px 20px 10px 0px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+  }
+
+  /* line 349, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .title-bottom {
+    display: none;
+  }
+
+  /* line 352, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .smallCard {
+    width: 39%;
+    height: 120px;
+    position: relative;
+    top: 60px;
+    background-color: #dadada;
+    float: left;
+  }
+  /* line 359, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .smallCard img {
+    width: 30%;
+    height: 120px;
+    display: inline-block;
+  }
+  /* line 365, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .smallCard p,
+  .smallCard a {
+    width: 67%;
+    height: 42px;
+    display: inline-block;
+    position: relative;
+    top: -122px;
+    left: 30%;
+    padding: 8px 0px 0px 3%;
+  }
+  /* line 374, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .smallCard a {
+    top: -140px;
+    border-top: 1px solid #c9c9c9;
+    color: black;
+    padding-top: 20px;
+  }
+  /* line 380, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .smallCard a:hover, .smallCard a:focus {
+    background-color: #d0d0d0;
+    outline: none;
+  }
+  /* line 384, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  .smallCard a i {
+    position: relative;
+    left: 2.5%;
+    top: 1px;
+  }
+
+  /* line 391, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  #card2 {
+    position: relative;
+    top: 80px;
+    background-color: inherit;
+    float: left;
+  }
+  /* line 396, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  #card2 div {
+    position: relative;
+    top: 106px;
+  }
+  /* line 400, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  #card2 div p,
+  #card2 div a {
+    width: 97%;
+    left: 0%;
+    color: #eee;
+    background-color: #9e3838;
+    padding-top: 20px;
+  }
+  /* line 407, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  #card2 div a {
+    border-top: 1px solid #851d1d;
+  }
+  /* line 410, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  #card2 div a:hover, #card2 div a:focus {
+    background-color: #851d1d;
+  }
+
+  /* line 416, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  #card3 {
+    position: relative;
+    top: 100px;
+  }
+  /* line 419, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  #card3 img {
+    position: relative;
+    top: -138px;
+    float: right;
+  }
+  /* line 424, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  #card3 div {
+    position: relative;
+    top: 125px;
+    right: 30%;
+  }
+
+  /* line 430, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  #card4 {
+    background-image: url("/assets/londonpub3.jpg");
+    background-size: 100% 240px;
+    background-repeat: no-repeat;
+    display: block;
+    top: 75px;
+    margin-bottom: 25px;
+    width: 100%;
+    clear: both;
+  }
+  /* line 439, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  #card4 a {
+    font-size: 1.8em;
+    color: #eee;
+    border: none;
+    top: 0px;
+    left: 0%;
+    width: 90%;
+    padding: 40px 0% 38px 10%;
+  }
+  /* line 448, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  #card4 a:hover, #card4 a:focus {
+    background-color: rgba(158, 56, 56, 0.73);
+  }
+  /* line 452, /home/ubuntu/workspace/pub/app/assets/stylesheets/static_pages.css.scss */
+  #card4 div {
+    background-color: rgba(158, 56, 56, 0.7);
+    display: block;
+    width: 100%;
+    height: 120px;
+    top: 0px;
+    left: 0px;
+  }
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+
+ */
