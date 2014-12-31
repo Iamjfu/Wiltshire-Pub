@@ -3,14 +3,14 @@
 # You can use CoffeeScript in this file: http://coffeescript.org/
 #calling both document ready and page load because of turbolinks
 $(document).ready ->
-  initializers()
+  projectInitializers()
   return
 
 $(document).on "page:load", ->
-  initializers()
+  projectInitializers()
   return
 
-initializers = ->
+projectInitializers = ->
   submitClick()
   menuToggle()
   windowResize()
