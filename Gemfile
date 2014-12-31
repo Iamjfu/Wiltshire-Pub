@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby "2.1.4p265"
+ruby "2.1.4"
 # Default gems
 gem 'rails', '4.1.6'
 gem 'sass-rails', '~> 4.0.3'
