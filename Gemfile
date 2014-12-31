@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+ruby "2.1.4p265"
 # Default gems
 gem 'rails', '4.1.6'
 gem 'sass-rails', '~> 4.0.3'
@@ -28,12 +28,13 @@ group :development do
   gem 'quiet_assets'
 end
 
-#group :production do
+group :production do
   #added gems for heroku deployment
   gem 'heroku', '~> 3.21.1'
   gem 'pg'
   gem 'rails_12factor', '~> 0.0.3'
-#end
+  gem 'thin'
+end
 
 
 
