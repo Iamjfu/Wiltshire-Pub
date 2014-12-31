@@ -28,12 +28,12 @@ group :development do
   gem 'quiet_assets'
 end
 
-group :production do
+#group :production do
   #added gems for heroku deployment
   gem 'heroku', '~> 3.21.1'
   gem 'pg'
   gem 'rails_12factor', '~> 0.0.3'
-end
+#end
 
 
 
