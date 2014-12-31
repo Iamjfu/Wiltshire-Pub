@@ -17,6 +17,7 @@
 //= require turbolinks
 //= require_tree .
 
+/*
 //calling both document ready and page load because of turbolinks
 $(document).ready(function() {
   initializers();
@@ -112,4 +113,4 @@ var googleMaps = function initialize() {
       }
 var initializeMaps = function() {
   google.maps.event.addDomListener(window, 'load', initialize);
-}      
+}      */
